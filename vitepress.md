@@ -243,3 +243,21 @@ function sidebarVitepressReference(): DefaultTheme.SidebarItem[] {
 }
 
 ```
+
+## 部署到github {#deploy}
+
+### 创建git仓库，添加.gitignore文件
+
+```
+node_modules
+.DS_Store
+dist
+dist-ssr
+cache
+.cache
+.temp
+*.local
+```
+
+### 选择github actions
+setting-》pages-》sorouce-》github-action
