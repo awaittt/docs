@@ -16,7 +16,7 @@ export default defineConfig({
       },
     ],
   ],
-  rewrites: { "/docs": "/write" },
+  rewrites: { "/docs": "/wirte" },
   title: "个人小屋",
   description: "生活点滴记录文档",
   themeConfig: {
