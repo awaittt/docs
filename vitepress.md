@@ -262,7 +262,11 @@ cache
 ### 选择github actions
 - setting-》pages-》sorouce-》github-action
 
+![An image](/action.png)
+
 - action->setyour workflow
+
+![An image](/action2.png)
 
  - 添加deploy.yml文件
 
