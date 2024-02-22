@@ -17,7 +17,7 @@ export default defineConfig({
     ],
   ],
   rewrites: { "/docs": "/wirte" },
-  title: "个人小屋",
+  title: "个人小栈",
   description: "生活点滴记录文档",
   themeConfig: {
     logo: "/logo.png",
@@ -43,7 +43,7 @@ export default defineConfig({
       },
     ],
     footer: {
-      copyright: "烂车才需要备胎，闲人才养鱼",
+      copyright: "时遭不遇，只宜安贫守份；心若不欺，必然扬眉吐气。初贫君子，天然骨骼生成；乍富小人，不脱贫寒肌体。",
     },
     outline: {
       label: "页面导航",
