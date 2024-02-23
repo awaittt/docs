@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 文摘
       link: /books/index
+    - theme: alt
+      text: 时境
+      link: /person/index
 
   image:
     src: /background.webp
