@@ -23,9 +23,16 @@ export default defineConfig({
     logo: "/logo.png",
     nav: nav(),
     sidebar: {
-      
+      "/decorate/practice/": {
+        base: "/decorate/practice/",
+        items: decoratePractice(),
+      },
+      "/decorate/vue/": {
+        base: "/decorate/vue/",
+        items: decorateVue(),
+      },
     },
-    socialLinks: [
+        socialLinks: [
       { icon: "github", link: "https://github.com/awaittt" },
       {
         icon: {
@@ -43,7 +50,8 @@ export default defineConfig({
       },
     ],
     footer: {
-      copyright: "时遭不遇，只宜安贫守份；心若不欺，必然扬眉吐气。初贫君子，天然骨骼生成；乍富小人，不脱贫寒肌体。",
+      copyright:
+        "时遭不遇，只宜安贫守份；心若不欺，必然扬眉吐气。初贫君子，天然骨骼生成；乍富小人，不脱贫寒肌体。",
     },
     outline: {
       label: "页面导航",
@@ -68,10 +76,11 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: "前端",
       items: [
-        { text: "React", link: "/" },
-        { text: "Vue", link: "/" },
-        { text: "微信小程序", link: "/" },
-        { text: "鸿蒙os", link: "/" },
+        // { text: "React", link: "/" },
+        { text: "Vue", link: "/decorate/vue/mvvm" },
+        // { text: "微信小程序", link: "/" },
+        // { text: "鸿蒙os", link: "/" },
+        { text: "八股文", link: "/decorate/practice/HTML" },
       ],
     },
     {
@@ -86,13 +95,13 @@ function nav(): DefaultTheme.NavItem[] {
   ];
 }
 
-function sidebarVitepressGuide(): DefaultTheme.SidebarItem[] {
+function decoratePractice(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: "简介",
       collapsed: false,
       items: [
-        { text: "什么是 VitePress？", link: "what-is-vitepress" },
+        { text: "HTML", link: "HTML" },
         { text: "快速开始", link: "getting-started" },
         { text: "路由", link: "routing" },
         { text: "部署", link: "deploy" },
@@ -136,14 +145,13 @@ function sidebarVitepressGuide(): DefaultTheme.SidebarItem[] {
   ];
 }
 
-function sidebarVitepressReference(): DefaultTheme.SidebarItem[] {
+function decorateVue(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: "API 参考",
+      text: "vue2基础知识",
       collapsed: false,
       items: [
-        { text: "vitepress", link: "api/vitepress" },
-        { text: "theme", link: "api/theme" },
+        { text: "mvvm", link: "mvvm" },
       ],
     },
   ];
