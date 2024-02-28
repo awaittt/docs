@@ -80,7 +80,7 @@ function nav(): DefaultTheme.NavItem[] {
         { text: "Vue", link: "/decorate/vue/mvvm" },
         // { text: "微信小程序", link: "/" },
         // { text: "鸿蒙os", link: "/" },
-        { text: "八股文", link: "/decorate/practice/HTML" },
+        { text: "八股文", link: "/decorate/practice/html" },
       ],
     },
     {
