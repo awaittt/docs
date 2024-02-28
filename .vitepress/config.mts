@@ -32,7 +32,7 @@ export default defineConfig({
         items: decorateVue(),
       },
     },
-        socialLinks: [
+    socialLinks: [
       { icon: "github", link: "https://github.com/awaittt" },
       {
         icon: {
@@ -150,9 +150,7 @@ function decorateVue(): DefaultTheme.SidebarItem[] {
     {
       text: "vue2基础知识",
       collapsed: false,
-      items: [
-        { text: "mvvm", link: "mvvm" },
-      ],
+      items: [{ text: "mvvm", link: "mvvm" }],
     },
   ];
 }

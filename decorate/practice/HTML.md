@@ -86,14 +86,14 @@ defer 和 async属性都是去异步加载外部的JS脚本文件，它们都不
 
 响应式页面中经常用到根据屏幕密度设置不同的图片。这时就用到了 img 标签的srcset属性。srcset属性用于设置不同屏幕密度下，img 会自动加载不同的图片。
 
-## 8.  行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？
+## 8. 行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？
 
 - 行内元素有：a b span img input select strong；
 - 块级元素有：div ul ol li dl dt dd h1 h2 h3 h4 h5 h6 p；
 
 空元素，即没有内容的HTML元素。空元素是在开始标签中关闭的，也就是空元素没有闭合标签：
-- 常见的有：<br>、<hr>、<img>、<input>、<link>、<meta>；
-- 鲜见的有：<area>、<base>、<col>、<colgroup>、<command>、<embed>、<keygen>、<param>、<source>、<track>、<wbr>。
+- 常见的有：```<br>、<hr>、<img>、<input>、<link>、<meta>```；
+- 鲜见的有：```<area>、<base>、<col>、<colgroup>、<command>、<embed>、<keygen>、<param>、<source>、<track>、<wbr>```。
 
 ## 9. 对 web worker 的理解
 在 HTML 页面中，如果在执行脚本时，页面的状态是不可相应的，直到脚本执行完成后，页面才变成可相应。web worker 是运行在后台的 js，独立于其他脚本，不会影响页面的性能。 并且通过 postMessage 将结果回传到主线程。这样在进行复杂操作的时候，就不会阻塞主线程了。 
