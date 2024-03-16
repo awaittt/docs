@@ -78,9 +78,10 @@ function nav(): DefaultTheme.NavItem[] {
       items: [
         // { text: "React", link: "/" },
         { text: "Vue", link: "/decorate/vue/mvvm" },
-        // { text: "微信小程序", link: "/" },
+        { text: "微信小程序", link: "/decorate/wx_app/index" },
         // { text: "鸿蒙os", link: "/" },
         { text: "八股文", link: "/decorate/practice/html" },
+        { text: "开发", link: "decorate/code" },
       ],
     },
     {
