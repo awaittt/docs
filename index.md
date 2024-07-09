@@ -3,22 +3,26 @@
 layout: home
 
 title: 个人小栈
-titleTemplate: 不知名前端攻城狮的随想、学习记录
+titleTemplate: 不知名前端攻城狮
 
 hero:
   name: "个人小栈"
-  text: "不知名前端攻城狮的随想、学习记录"
-  tagline: 搞钱要紧，可以没有爱，不能没有钱
+  text: "不知名前端攻城狮"
+  tagline: "你站在桥上看风景，
+看风景的人在楼上看你。
+明月装饰了你的窗子，
+你装饰了别人的梦。    --卞之琳 "
   actions:
     - theme: brand
       text: 阮一峰的个人网站
       link: https://www.ruanyifeng.com/
     - theme: alt
+      text: 个人
+      link: /person/index
+    - theme: alt
       text: 文摘
       link: /books/index
-    - theme: alt
-      text: 时境
-      link: /person/index
+
 
   image:
     src: /background.webp
@@ -32,7 +36,6 @@ features:
   - title: 终生学习？
     details: 如果终生学习是唯一的就业出路，对于大多数人来说，那就是没有出路
 ---
-
 
 <style>
 :root {

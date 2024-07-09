@@ -1,9 +1,11 @@
-## process 进程 开启很多个线程
+# node 基础
+
+## 1.process 进程 开启很多个线程
 
 Buffer 缓存区 我们 node 读取文件 内存中的数据 都是二进制 数据 16 进制// clearInterval setInterval
 clearTimeout setTimeout
 clearImmediate setImmediate 宏任务
-命令 window 的目录 mac 的目录不一样的 
+命令 window 的目录 mac 的目录不一样的
 console.log(process.platform);//window=> win32 mac => 'darwin'
 argv 代表用户传递的参数 默认前两个参数 没有实际意义
 执行 node node + 文件名执行
@@ -14,3 +16,7 @@ const program = require('commander');
 chdir cwd()current working directory
 env 环境变量
 nextTicknode 中的微任务
+
+node 中的模块 3 类 文件模块、第三方模块(需要安装)、内置模块(fs)
+
+## npm

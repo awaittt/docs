@@ -1,4 +1,5 @@
 import { defineConfig, type DefaultTheme } from "vitepress";
+
 //@ts-ignore
 import fs from "fs";
 
@@ -22,16 +23,7 @@ export default defineConfig({
   themeConfig: {
     logo: "/logo.png",
     nav: nav(),
-    sidebar: {
-      "/decorate/practice/": {
-        base: "/decorate/practice/",
-        items: decoratePractice(),
-      },
-      "/decorate/vue/": {
-        base: "/decorate/vue/",
-        items: decorateVue(),
-      },
-    },
+    sidebar: {},
     socialLinks: [
       { icon: "github", link: "https://github.com/awaittt" },
       {
@@ -155,3 +147,5 @@ function decorateVue(): DefaultTheme.SidebarItem[] {
     },
   ];
 }
+
+
